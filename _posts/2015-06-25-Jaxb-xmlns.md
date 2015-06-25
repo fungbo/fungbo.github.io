@@ -8,8 +8,8 @@ comments: false
 ##JAXB Xmlns  
 使用**JAXB**来*Marshal*和*Unmarshal* xml时比较麻烦的地方之一就是Xmlns。
 
-拿个Spring.xml当例子，如果要Marshal成下面这样，应该怎么实现   
-[Spring.xml]
+拿个spring.xml当例子，如果要Marshal成下面这样，应该怎么实现   
+[spring.xml]
    
 	<beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
