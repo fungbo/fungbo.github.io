@@ -5,7 +5,7 @@ date: 2015-06-27 17:50:00
 comments: false
 ---
 
-###6.重新组织函数
+###重新组织函数
 1.Extract Method   
 2.Inline Method   
 3.Inline Temp   
@@ -16,7 +16,7 @@ comments: false
 8.Replace Method    
 9.Subsitute Algorithm   
 
-####7.在对象之间搬移特性
+###在对象之间搬移特性
 1.Move Method   
 2.Move Field   
 3.Exract Class   
