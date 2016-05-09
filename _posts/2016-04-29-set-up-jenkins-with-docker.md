@@ -1,10 +1,12 @@
 ---
-title: "Music, Movies and Life"
-layout: "post"
-date: "2016-04-29 12:00:00"
-updated: "2016-04-29 12:00:00"
-description: 
+layout: post
+title: "Set up Jenkins with Docker"
+date: 2016-04-29 12:00:00
+comments: true
+categories:
 ---
+
+用Docker搭建Jenkins，可以快速方便的复制CI环境。比如可以在本地尝试搭建，搭建完成后将数据和Dockerfile迁移至云端等。
 
 #### 想法：
 1. Jenkins自己就跑在docker container中
