@@ -42,5 +42,5 @@ categories:
     `sudo service apache2 reload`   
     重新加载Apache   
 
-    如果是创建自己的配置文件，还要激活配置文件，再重启Apache   
+    如果是创建自己的配置文件，还要激活配置文件，再重启Apache    
     `sudo a2ensite you.conf`

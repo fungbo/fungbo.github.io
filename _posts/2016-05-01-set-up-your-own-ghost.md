@@ -31,5 +31,5 @@ categories:
 	</VirtualHost>
 	```    
 
-4. Reload apache2
+4. 重新加载apache2   
 `sudo service apache2 reload`
