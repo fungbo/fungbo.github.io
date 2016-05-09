@@ -8,7 +8,7 @@ categories:
 
 用Docker搭建Jenkins，可以快速方便的复制CI环境。比如可以在本地尝试搭建，搭建完成后将数据和Dockerfile迁移至云端等。
 
-#### 想法：
+### 想法：
 1. Jenkins自己就跑在docker container中
 2. 所有的测试也跑在自己的container中
 3. 逻辑上，测试的docker image在Jenkins中构建，并在Jenkins中运行
@@ -16,7 +16,7 @@ categories:
 5. 不管是Jenkins还是测试的image都保存在host上
 6. Jenkins本身的数据信息也保存到host上
 
-#### Dockerfile
+### Dockerfile
 ``` dockerfile
 FROM jenkins:latest
 MAINTAINER bfeng@thoughtworks.com
@@ -37,10 +37,10 @@ EXPOSE 8080
 ```
 >*基于最新的官方Jenkins镜像，在Jenkins中再安装docker。Jenkins运行在**8080**端口，前缀是**jenkins*，反向代理的时候会用到*
 
-#### 构建镜像
+### 构建镜像
 `sudo docker build -t bfeng/jenkins .`
 
-#### 运行Container
+### 运行Container
 `sudo docker run --name jenkins -p 8080:8080 -v /var/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -u root -d bfeng/jenkins`
 >*将8080端口映射到host上的8080*
 >*把jenkins_home目录挂载到host上，这样即使重新构建jenkins镜像，jenkins的数据也不会丢失*
