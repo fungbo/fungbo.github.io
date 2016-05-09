@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Set up your own ghost and set the reverse proxy"
+title: "Set up your own ghost and set reverse proxy"
 date: 2016-05-01 12:00:00
 comments: true
 categories:
