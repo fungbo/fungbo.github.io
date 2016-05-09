@@ -6,9 +6,9 @@ comments: true
 categories:
 ---
 
-#### Run Ghost container
 **Ghost**是一个开源的blog平台，并且已经提供了Docker image，下面就基于Docker来搭建自己的blog。
 
+#### Run Ghost container
 `docker run —name ghost -d -p 2368:2368 -v /home/ubuntu/ghost/blog:/var/lib/ghost ghost`  
 
 只需要运行*ghost*的image即可, Ghost默认运行在2368端口。
