@@ -4,7 +4,7 @@ highlighter: true
 url: http://vinitkumar.me/white-paper
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
-description: bfeng's blog
+description: bfeng
 intro: Keep learning, Keep walking
 logo: logo.png
 disqus_shortname:
