@@ -30,7 +30,7 @@ remote api就是一些Restful api，通过这些api，就可以达到远程操�
 
 详细的可以json参数信息:   
 
-``` json
+``` bash
 curl -X POST -H "Content-Type: application/json" http://remote-server:4243/containers/create -d '{
      "Hostname":"",
      "User":"",
