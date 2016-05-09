@@ -1,12 +1,12 @@
-name: White Paper
+name: bfeng
 markdown: redcarpet
 highlighter: true
 url: http://vinitkumar.me/white-paper
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
-description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
-logo:             logo.png
+description: bfeng's blog
+intro: Keep learning, Keep walking
+logo: logo.png
 disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
@@ -14,9 +14,9 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
+  name: bfeng
   avatar:         <avatar-image-link>
-  email:          <your-email-address>
+  email: fungbo@126.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   github:
