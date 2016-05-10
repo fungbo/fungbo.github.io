@@ -1,5 +1,5 @@
 name: bfeng
-markdown: redcarpet
+markdown: kramdown
 highlighter: true
 url: http://vinitkumar.me/white-paper
 gems: [jekyll-paginate,  jekyll-gist]
