@@ -1,6 +1,6 @@
 name: bfeng
 markdown: kramdown
-highlighter: true
+highlighter: rough
 url: http://vinitkumar.me/white-paper
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
